@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "rest-client"
+version = "0.1.0"
+description = ""
+authors = ["Dmitriy <dmlysenko@ptsecurity.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"  # Более точное указание версии Python
+restclient = "^0.11.0"
+httpx = "^0.28.1"
+setuptools = "^80.0.0"
+curlify2 = "^2.0.0"
+structlog = "^25.3.0"
+allure-pytest = "^2.14.0"
+swagger-coverage = {url = "https://github.com/ValeriyMenshikov/swagger-coverage-py/archive/refs/heads/master.zip"}
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
