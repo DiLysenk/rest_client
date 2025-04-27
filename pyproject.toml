@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Dmitriy <dmlysenko@ptsecurity.com>"]
 readme = "README.md"
-packages = [{include = "rest-client-httpx"}]
+packages = [{include = "restclient"}]
 
 
 [tool.poetry.dependencies]
